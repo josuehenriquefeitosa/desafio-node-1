@@ -1,0 +1,16 @@
+{
+  "name": "desafio-node-1",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r     <img alt=\"CodeClub\" src=\"https://i0.wp.com/rodolfomori.com/wp-content/uploads/2021/05/Co%CC%81pia-de-Yellow-White-and-Black-Edgy-Maximalism-Video-Gaming-YouTube-Outro-1-1024x1024.png\" width=\"300px\" />\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  }
+}
