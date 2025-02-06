@@ -1,10 +1,13 @@
 import { v4 as uuidv4} from 'uuid';
+import cors from 'cors'
 import express, { json, request, response } from 'express';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
 const app = express()
 app.use(express.json())
+app.use(cors())
+
 const port = process.env.PORT
 const orders = []
 
